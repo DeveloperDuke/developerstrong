@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Hind+Madurai:wght@300&family=Josefin+Sans:wght@300&family=Onest:wght@100;500&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+ body{
+    background-color: black;
+ }
+
+ .header{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding: 20px;
+ }
+
+ .article{
+   background-color: rgb(0, 0, 0);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+
+
+ header .logo img{
+    height: 50px;
+    width: auto;
+ }
+
+ .header .nav_link{
+    list-style: none;
+ }
+
+ header .nav_link li{
+    display: inline-block;
+    padding: 0 20px;
+
+ }
+
+ .header .nav_link a{
+
+    font-size: 700;
+    color: white;
+    text-decoration: none;
+ }
+
+ .inicio_sesion a{
+
+    font-size: 700;
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: all 0.3s;
+ }
+
+ .inicio_sesion a:hover{
+   color:#F21B6A;
+   transform: scale(1.1);
+ }
+
+  .inicio_sesion .btn button{
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    padding: 9px 20px;
+    background: #F21B6A;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    ;
+ }
+
+ .inicio_sesion .btn button:hover{
+ background-color: white;
+ color: #F21B6A;
+ transform: scale(1.1);
+ }
+
+.section{
+   width: 100% !important;
+   height: 500px;
+   
+}
+ 
